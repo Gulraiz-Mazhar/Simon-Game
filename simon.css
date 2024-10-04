@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+}
+.btn{
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: .5rem;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.yellow{
+    background-color: #f99b45;
+}
+.red{
+    background-color: #d95980;
+}
+.green{
+    background-color: #63aac0;
+}
+.purple{
+    background-color: #819ff9;
+}
+
+.restart{
+    width: 120px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+@media only screen and (max-width:600px) {
+    .btn{
+        width: 110px;
+        height: 110px;
+        border-radius: 20%;
+        border: 8px solid black;
+        margin: .5rem;
+    }
+    .btn-container{
+        display: flex;
+        justify-content: center;
+    }
+}
